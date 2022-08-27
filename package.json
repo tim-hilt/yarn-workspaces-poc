@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "yarn workspaces run build",
@@ -20,8 +21,8 @@
     "vite": "^3.0.7"
   },
   "workspaces": [
+    "services/orchestrator",
     "services/a",
-    "services/b",
-    "services/c"
+    "services/b"
   ]
 }
