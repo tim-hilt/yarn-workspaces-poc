@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "yarn workspaces run build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,5 +18,10 @@
     "@vitejs/plugin-react": "^2.0.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.7"
-  }
+  },
+  "workspaces": [
+    "services/a",
+    "services/b",
+    "services/c"
+  ]
 }
