@@ -1,5 +1,5 @@
 {
-  "name": "a",
+  "name": "@workspaces/a",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

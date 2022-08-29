@@ -1,5 +1,5 @@
 {
-  "name": "orchestrator",
+  "name": "@workspaces/orchestrator",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "a": "0.0.0",
-    "b": "0.0.0"
+    "@workspaces/a": "^0.0.0",
+    "@workspaces/b": "^0.0.0"
   }
 }
