@@ -1,13 +1,12 @@
 {
   "name": "@workspaces/orchestrator",
   "version": "0.0.0",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@workspaces/a": "^0.0.0",
-    "@workspaces/b": "^0.0.0"
+    "@workspaces/a": "^0.0.1",
+    "@workspaces/b": "^0.0.1"
   }
 }

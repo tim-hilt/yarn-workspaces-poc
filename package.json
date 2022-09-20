@@ -1,5 +1,5 @@
 {
-  "name": "workspaces-hmr",
+  "name": "@workspaces/services",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,8 +21,7 @@
     "vite": "^3.0.7"
   },
   "workspaces": [
-    "services/a",
-    "services/b",
-    "services/orchestrator"
+    "commons/*",
+    "services/*"
   ]
 }
