@@ -13,7 +13,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "types": ["vite/client"]
   },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
