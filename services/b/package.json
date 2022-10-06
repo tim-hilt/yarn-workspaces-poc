@@ -2,7 +2,8 @@
   "name": "@workspaces/b",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "./src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   }
